@@ -13,7 +13,21 @@
         height: 810px;
         max-height: 810px;
         background-size: cover;
+        color: {{ section.settings.header_text_color }};              
     }
+
+    h1 {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 5.5rem;
+        font-size: 5.5rem;
+        font-weight: 700;
+        text-shadow: 3px 3px 0 #AE5B0A;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: #AE5B0A; 
+    }
+
 </style>
 
 
@@ -33,6 +47,12 @@
             "type": "image_picker",
             "id": "background_image",
             "label": "Background image"
+        },
+        {
+            "type": "color",
+            "id": "header_text_color",
+            "label": "Text color",
+            "default": "#ffffff"
         }
     ]
 
