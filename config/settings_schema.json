@@ -1,5 +1,16 @@
 [
     {
+        "name": "Typography",
+        "settings": [
+            {
+                "type": "font_picker",
+                "id": "theme_font",
+                "label": "Theme font",
+                "default": "helvetica_n4"
+              }
+        ]
+    },
+    {
         "name": "Colors",
         "settings": [
             {
